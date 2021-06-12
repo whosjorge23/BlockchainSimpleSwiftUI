@@ -128,9 +128,9 @@ struct ContentView: View {
                         Spacer()
                         Button(action: {
                             //Action Send
-                            if balance02 > 0 {
+                            if balance02 >= Int(account02) ?? 0 {
                                 balance02 -= Int(account02) ?? 0
-                                balance01 += Int(account01) ?? 0
+                                balance01 += Int(account02) ?? 0
                             }
                             account02 = ""
                         }, label: {
