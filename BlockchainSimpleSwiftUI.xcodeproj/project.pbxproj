@@ -11,6 +11,8 @@
 		ED3D83DE2674A8D500FBBB66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D83DD2674A8D500FBBB66 /* ContentView.swift */; };
 		ED3D83E02674A8D700FBBB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3D83DF2674A8D700FBBB66 /* Assets.xcassets */; };
 		ED3D83E32674A8D700FBBB66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3D83E22674A8D700FBBB66 /* Preview Assets.xcassets */; };
+		ED3D83EC2674A8F800FBBB66 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D83EB2674A8F800FBBB66 /* Block.swift */; };
+		ED3D83EF2674A92100FBBB66 /* Blockchain.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D83EE2674A92100FBBB66 /* Blockchain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		ED3D83DF2674A8D700FBBB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED3D83E22674A8D700FBBB66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED3D83E42674A8D700FBBB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3D83EB2674A8F800FBBB66 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		ED3D83EE2674A92100FBBB66 /* Blockchain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blockchain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				ED3D83DB2674A8D500FBBB66 /* BlockchainSimpleSwiftUIApp.swift */,
 				ED3D83DD2674A8D500FBBB66 /* ContentView.swift */,
+				ED3D83EB2674A8F800FBBB66 /* Block.swift */,
+				ED3D83EE2674A92100FBBB66 /* Blockchain.swift */,
 				ED3D83DF2674A8D700FBBB66 /* Assets.xcassets */,
 				ED3D83E42674A8D700FBBB66 /* Info.plist */,
 				ED3D83E12674A8D700FBBB66 /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3D83EC2674A8F800FBBB66 /* Block.swift in Sources */,
+				ED3D83EF2674A92100FBBB66 /* Blockchain.swift in Sources */,
 				ED3D83DE2674A8D500FBBB66 /* ContentView.swift in Sources */,
 				ED3D83DC2674A8D500FBBB66 /* BlockchainSimpleSwiftUIApp.swift in Sources */,
 			);
